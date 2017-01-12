@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Kardashaway",
+  "version": "0.1.0",
+  "description": "pop culture browser filter",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["jquery.min.js", "kardash.js"],
+    "matches": ["https://*/*", "http://*/*"]
+  }]
+
+}
